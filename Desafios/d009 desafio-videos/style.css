@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+p {
+    color: rgb(247, 247, 247);
+}
+
+.container {
+    text-align: center; /* Centraliza os elementos horizontalmente */
+    margin: 0 auto; /* Define margens automáticas para centralizar */
+    max-width: 600px; /* Define a largura máxima do conteúdo */
+}

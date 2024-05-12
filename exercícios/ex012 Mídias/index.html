@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Colocando audio no meu site</h1>
+ 
+    <audio preload="metadata" autoplay controls loop>
+        <source src="nature.mp3" type="audio/mpeg">
+        <source src="nature.ogg" type="audio/ogg">
+        <source src="nature.wav" type="audio/wav">
+        <p>Infelizmente seu navagador não consegue reproduzir áudio. <a href="nature.mp3">Clique aqui</a> para baixar o arquivo MP3</p>
+    </audio>
+
+    <h1>Colocando vídeos no meu site de forma interna</h1>
+
+    <video width="200" poster="limoes-capa.png" controls autoplay loop>
+        <source src="meuvideowebm.webm" type="video/webm">
+        <source src="meuvideomkv.mkv" type="video/mkv">
+        <source src="meuvideomp4.mp4" type="video/mp4">
+        <source src="meu-videoogv.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com o video.</p>
+    </video>
+
+    <h1>Colocando vídeos no meu site de forma externa</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/t3WZIL_VwYg?si=__NTPxSIO5YYFxxV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
